@@ -1,0 +1,9 @@
+Random dice = new Random();
+int roll1 = dice.Next(); // Generates a random number between 1 and 6
+int roll2 = dice.Next(101); // Generates a random number between 1 and 6
+int roll3 = dice.Next(50, 101); // Generates a random number between 1 and 6
+
+Console.WriteLine($"First roll: {roll1}");
+Console.WriteLine($"Second roll: {roll2}");
+Console.WriteLine($"Third roll: {roll3}");
+
